@@ -1,0 +1,133 @@
+.nav-link {
+  text-align: center;
+  margin: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: yellow;
+}
+
+.img_Card{
+  border-color: blue;
+  border: 2px;
+}
+
+.section_seprator{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#about {
+  background-color: #1F8CF5;
+  color: white;
+}
+
+.about_h3{
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.heading{
+  font-family: 'Limelight', cursive;
+  font-size: 2.5rem;
+  font-stretch: expanded;
+  text-align: left;
+}
+
+.main_line{
+  padding-top:50px;
+    font-family: 'Bree Serif', serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-stretch: expanded;
+}
+
+.teamphoto{
+  position: relative;
+  top: 58px;
+}
+
+.solid_impr_text {
+  font-family: 'Bree Serif', serif;
+  font-size: 3rem;
+  margin-left:15px;
+}
+
+.solid_impr_text_card {
+  font-family: 'Bree Serif', serif;
+}
+
+
+#Insight {
+    text-align: left;
+}
+ 
+.insight {
+  padding: 2% 15% 5%;
+}
+
+#views {
+
+  background-color: #0dcaf0;
+  text-align: left;
+  color: white;
+}
+
+.map{
+  text-align: center;
+  padding-top: 5%;
+
+
+}
+
+#features {
+  text-align: left;
+}
+
+.card{
+ padding: 2px;
+  margin: 5px;
+  border: 2px;
+}
+.adress{
+  font-size: 1.3rem;
+}
+
+.card{
+margin: 2%;
+}
+
+.card-img-top{
+  height: 200px;
+}
+#Contact {
+  background-color: #12B1DE;
+  text-align:center;
+}
+
+#footer {
+  text-align: center;
+  background-color: #212529;
+  color: white;
+}
+
+.footicon {
+  margin: 10px;
+  font-size: 1.7rem;
+}
+
+.footicon:Hover{
+  color: yellow;
+}
+
+
+@media (max-width: 1028px ){
+  .teamphoto{
+    position: relative;
+    top: 0;
+  }
+.map{
+  text-align: left;
+}
+}
